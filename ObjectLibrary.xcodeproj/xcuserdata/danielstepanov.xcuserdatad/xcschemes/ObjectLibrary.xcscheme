@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D0E7440D1C734FA1005C6BE4"
+               BlueprintIdentifier = "D0E744301C742380005C6BE4"
                BuildableName = "ObjectLibrary.app"
                BlueprintName = "ObjectLibrary"
                ReferencedContainer = "container:ObjectLibrary.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0E7440D1C734FA1005C6BE4"
+            BlueprintIdentifier = "D0E744301C742380005C6BE4"
             BuildableName = "ObjectLibrary.app"
             BlueprintName = "ObjectLibrary"
             ReferencedContainer = "container:ObjectLibrary.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0E7440D1C734FA1005C6BE4"
+            BlueprintIdentifier = "D0E744301C742380005C6BE4"
             BuildableName = "ObjectLibrary.app"
             BlueprintName = "ObjectLibrary"
             ReferencedContainer = "container:ObjectLibrary.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0E7440D1C734FA1005C6BE4"
+            BlueprintIdentifier = "D0E744301C742380005C6BE4"
             BuildableName = "ObjectLibrary.app"
             BlueprintName = "ObjectLibrary"
             ReferencedContainer = "container:ObjectLibrary.xcodeproj">

@@ -93,10 +93,10 @@ class ScansViewController: UIViewController, UITableViewDataSource, UITableViewD
         let sketchFabViewController = SketchFabViewController()
         
         // Retrieve proper page for cell selection
-        
-        //        let newURL = NSURL(string: userURL!)
-        //        let request = NSURLRequest(URL: newURL!)
-        //        sketchFabViewController.sketchFabWebView.loadRequest(request)
+        let modelName = "d3d755836f9c42a882c0c15d5637309c"
+        let URL = NSURL(string: "https://sketchfab.com/models/\(modelName)")
+        let request = NSURLRequest(URL: URL!)
+        sketchFabViewController.sketchFabWebView.loadRequest(request)
         navigationController?.pushViewController(sketchFabViewController, animated: false)
 
     }

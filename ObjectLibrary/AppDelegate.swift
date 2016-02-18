@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // [Optional] Power your app with Local Datastore. For more info, go to
+        // https://parse.com/docs/ios/guide#local-datastore
+        Parse.enableLocalDatastore()
+        
+        // Initialize Parse.
+        Parse.setApplicationId("xNBTCOTeeBJFBYzUMpuyRouz9LY0GmuN31YIfPFd",
+            clientKey: "59XHD6he7M0nySvIsAh46waNVg5azmFirp0OXyTU")
+        
+        // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        // Initialize the window
+        window = UIWindow.init(frame: UIScreen.mainScreen().bounds)
+        
+        // Allocate memory for an instance of the 'ViewController' class
+        let scansViewController = ScansViewController()
+        
+        // Use a UINavigationController to manage the presentation of the app's pages
+        let navigationController = UINavigationController.init(rootViewController: scansViewController)
+        
+        // Set the root view controller of the app's window
+        window!.rootViewController = navigationController
+        
+        // Make the window visible
+        window!.makeKeyAndVisible()
+        
         return true
     }
 

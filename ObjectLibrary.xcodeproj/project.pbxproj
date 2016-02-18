@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		D0E744351C742380005C6BE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E744341C742380005C6BE4 /* AppDelegate.swift */; };
-		D0E744371C742380005C6BE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E744361C742380005C6BE4 /* ViewController.swift */; };
-		D0E7443A1C742380005C6BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E744381C742380005C6BE4 /* Main.storyboard */; };
 		D0E7443C1C742380005C6BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E7443B1C742380005C6BE4 /* Assets.xcassets */; };
 		D0E7443F1C742380005C6BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E7443D1C742380005C6BE4 /* LaunchScreen.storyboard */; };
+		D0E7444F1C745FC4005C6BE4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E7444C1C745FC4005C6BE4 /* Bolts.framework */; };
+		D0E744501C745FC4005C6BE4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E7444D1C745FC4005C6BE4 /* Parse.framework */; };
+		D0E744511C745FC4005C6BE4 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E7444E1C745FC4005C6BE4 /* PureLayout.framework */; };
+		D0E744541C746031005C6BE4 /* SketchFabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E744531C746031005C6BE4 /* SketchFabViewController.swift */; };
+		D0E7445A1C754EEF005C6BE4 /* ScansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E744591C754EEF005C6BE4 /* ScansViewController.swift */; };
+		D0E7445E1C755907005C6BE4 /* ScanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7445C1C755907005C6BE4 /* ScanCell.swift */; };
+		D0E7445F1C755907005C6BE4 /* ScanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E7445D1C755907005C6BE4 /* ScanCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0E744311C742380005C6BE4 /* ObjectLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E744341C742380005C6BE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0E744361C742380005C6BE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0E744391C742380005C6BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0E7443B1C742380005C6BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E7443E1C742380005C6BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E744401C742380005C6BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E7444C1C745FC4005C6BE4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		D0E7444D1C745FC4005C6BE4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Carthage/Build/iOS/Parse.framework; sourceTree = "<group>"; };
+		D0E7444E1C745FC4005C6BE4 /* PureLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureLayout.framework; path = Carthage/Build/iOS/PureLayout.framework; sourceTree = "<group>"; };
+		D0E744531C746031005C6BE4 /* SketchFabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchFabViewController.swift; sourceTree = "<group>"; };
+		D0E744591C754EEF005C6BE4 /* ScansViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScansViewController.swift; sourceTree = "<group>"; };
+		D0E7445C1C755907005C6BE4 /* ScanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanCell.swift; sourceTree = "<group>"; };
+		D0E7445D1C755907005C6BE4 /* ScanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E7444F1C745FC4005C6BE4 /* Bolts.framework in Frameworks */,
+				D0E744501C745FC4005C6BE4 /* Parse.framework in Frameworks */,
+				D0E744511C745FC4005C6BE4 /* PureLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				D0E744331C742380005C6BE4 /* ObjectLibrary */,
+				D0E744521C745FDF005C6BE4 /* Frameworks */,
 				D0E744321C742380005C6BE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,13 +69,57 @@
 			isa = PBXGroup;
 			children = (
 				D0E744341C742380005C6BE4 /* AppDelegate.swift */,
-				D0E744361C742380005C6BE4 /* ViewController.swift */,
-				D0E744381C742380005C6BE4 /* Main.storyboard */,
+				D0E744611C75652F005C6BE4 /* Scan Table View */,
+				D0E744621C75653C005C6BE4 /* SketchFab Web View */,
+				D0E7444B1C744E31005C6BE4 /* Supporting Files */,
+			);
+			path = ObjectLibrary;
+			sourceTree = "<group>";
+		};
+		D0E7444B1C744E31005C6BE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				D0E7443B1C742380005C6BE4 /* Assets.xcassets */,
 				D0E7443D1C742380005C6BE4 /* LaunchScreen.storyboard */,
 				D0E744401C742380005C6BE4 /* Info.plist */,
 			);
-			path = ObjectLibrary;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0E744521C745FDF005C6BE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7444C1C745FC4005C6BE4 /* Bolts.framework */,
+				D0E7444D1C745FC4005C6BE4 /* Parse.framework */,
+				D0E7444E1C745FC4005C6BE4 /* PureLayout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0E744601C756524005C6BE4 /* Scan Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7445C1C755907005C6BE4 /* ScanCell.swift */,
+				D0E7445D1C755907005C6BE4 /* ScanCell.xib */,
+			);
+			name = "Scan Cell";
+			sourceTree = "<group>";
+		};
+		D0E744611C75652F005C6BE4 /* Scan Table View */ = {
+			isa = PBXGroup;
+			children = (
+				D0E744591C754EEF005C6BE4 /* ScansViewController.swift */,
+				D0E744601C756524005C6BE4 /* Scan Cell */,
+			);
+			name = "Scan Table View";
+			sourceTree = "<group>";
+		};
+		D0E744621C75653C005C6BE4 /* SketchFab Web View */ = {
+			isa = PBXGroup;
+			children = (
+				D0E744531C746031005C6BE4 /* SketchFabViewController.swift */,
+			);
+			name = "SketchFab Web View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +132,7 @@
 				D0E7442D1C742380005C6BE4 /* Sources */,
 				D0E7442E1C742380005C6BE4 /* Frameworks */,
 				D0E7442F1C742380005C6BE4 /* Resources */,
+				D0E744461C744A98005C6BE4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -124,33 +183,46 @@
 			files = (
 				D0E7443F1C742380005C6BE4 /* LaunchScreen.storyboard in Resources */,
 				D0E7443C1C742380005C6BE4 /* Assets.xcassets in Resources */,
-				D0E7443A1C742380005C6BE4 /* Main.storyboard in Resources */,
+				D0E7445F1C755907005C6BE4 /* ScanCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0E744461C744A98005C6BE4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Bolts.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Parse.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PureLayout.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0E7442D1C742380005C6BE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E744371C742380005C6BE4 /* ViewController.swift in Sources */,
+				D0E7445E1C755907005C6BE4 /* ScanCell.swift in Sources */,
+				D0E7445A1C754EEF005C6BE4 /* ScansViewController.swift in Sources */,
 				D0E744351C742380005C6BE4 /* AppDelegate.swift in Sources */,
+				D0E744541C746031005C6BE4 /* SketchFabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0E744381C742380005C6BE4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0E744391C742380005C6BE4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0E7443D1C742380005C6BE4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -249,6 +321,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ObjectLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danstepanov.ObjectLibrary;
@@ -260,6 +336,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ObjectLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danstepanov.ObjectLibrary;
@@ -286,6 +366,7 @@
 				D0E744451C742380005C6BE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
